@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>My Style Guide</title>
+
+
+    <style>
+        body {
+            font-family: "Instrument Sans";
+            color: black;
+        }
+
+        h1 {
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        h2 {
+            font-size: 24px;
+        }
+
+        h3 {
+            font-size: 20px;
+        }
+
+        button {
+            background-color: #0077b6;
+            border-color: #0077b6;
+            border-radius: 5px;
+            padding: 10px;
+            color: white;
+        }
+
+        .inputLabel {
+            font-size: 14px;
+            font-weight: bold;
+        }
+
+        input.inputField {
+            padding: 5px;
+            border: 1px solid #023047;
+        }
+
+        div.box {
+            height: 100px;
+            width: 100px;
+            display: inline-block;
+            margin: 0 10px 0 10px;
+        }
+
+        #primary1 {
+            background-color: #0077b6;
+        }
+
+        #primary2 {
+            background-color: #8ecae6;
+        }
+
+        #primary3 {
+            background-color: #023047;
+        }
+
+        #primary4 {
+            background-color: #DBECF4;
+        }
+
+        .error {
+            background-color: rgb(254, 63, 63);
+            font-weight: bold;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .success {
+            background-color: #8ecae6;
+            font-weight: bold;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        svg.svg-inline--fa {
+            color: white;
+        }
+
+        .spacer {
+            margin-top: 25px;
+        }
+
+        #footer {
+            border-top: 1px solid #023047;
+            margin-top: 50px;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+	<!-- Include script for font awesome icon library -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+</head>
+
+<body>
+    <a name="Top"></a>
+    <div class="navbar navbar-inverse navbar-static-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <a href="#">
+                    <span class="navbar-brand">
+                        <i class="fas fa-home"></i>My Interface Style Guide</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="col-md-3">
+            <ul class="list-group">
+                <li class="list-group-item">
+                    <a href="#font">Font</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="#colorTheme">Color Theme</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="#headings">Headings</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="#buttons">Buttons</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="#formElements">Form Elements</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="#messages">Messages</a>
+                </li>
+            </ul>
+        </div>
+        <div class="col-md-9">
+            <!-- About -->
+            <div>
+                <div class="page-header">
+                    <h1>
+                        <a name="about"></a>My Styles</h1>
+                </div>
+                <p>This page contains specific style guide information for my front end interface.</p>
+            </div>
+            <!-- End About -->
+
+            <!-- Fonts -->
+            <div>
+                <div class="page-header">
+                    <h1>
+                        <a name="fonts"></a>Font</h1>
+                </div>
+                <p>My application utilizes the "Instrument Sans" font-family with black text.</p>
+            </div>
+            <div class="spacer">
+                <a href="#Top">Back to Top</a>
+            </div>
+            <!-- End Fonts -->
+
+            <!-- Color Theme -->
+            <div>
+                <div class="page-header">
+                    <h1>
+                        <a name="colorTheme"></a>Color Theme</h1>
+                </div>
+                <p>My application incorporates the below color scheme in its interface.</p>
+                <p>I chose variations of blue to be my color scheme. Blue is thought to be a color that represents reliability. People tend to associate the color blue with thoughts of order and stability. Those are all things that my application seeks to provide. The aim is for users to feel as though the content they are viewing is well organized, trust-worthy, and reliable. I am hoping to indirectly communicate this through the colors used throughout the application.</p>
+                <div class="box" id="primary1"></div>
+                <div class="box" id="primary2"></div>
+                <div class="box" id="primary3"></div>
+                <div class="box" id="primary4"></div>
+
+            </div>
+            <div class="spacer">
+                <a href="#Top">Back to Top</a>
+            </div>
+            <!-- End Color Theme -->
+
+            <!-- Headings -->
+            <div>
+                <div class="page-header">
+                    <h1>
+                        <a name="headings"></a>Headings</h1>
+                </div>
+                <p>The below font sizes and styles are used in the application for various content headings.</p>
+                <h1>Heading 1</h1>
+                <h2>Heading 2</h2>
+                <h3>Heading 3</h3>
+            </div>
+            <div class="spacer">
+                <a href="#Top">Back to Top</a>
+            </div>
+            <!-- End Headings -->
+
+            <!-- Buttons -->
+            <div>
+                <div class="page-header">
+                    <h1>
+                        <a name="buttons"></a>Buttons</h1>
+                </div>
+                <p>The application will feature buttons that contain the below color and shape:</p>
+                <p>The website will have different types of buttons. A 'Submit' button will be displayed for when a user needs to submit a form or a search input. An 'Add Child' button will be on display for when users need to add a new child to their caseload within the application. An 'Add Session' button will be on display for when a user would like to add a new session to their schedule within the application. A 'Cancel' button will be on display for when a user would like to exit the form they are in. The application will also include radio buttons for users to select the session attendance for each week.</p>
+                <button>Submit</button>
+                <button>Add New Child</button>
+                <button>Add New Session</button>
+                <button>Cancel</button>
+
+                <body>
+                  <p>Select Developmental Therapy attendance for this week:</p> 
+                
+                  <div> 
+                      <input type="radio" id="completed" 
+                             name="brand" value="completed"> 
+                      <label for="completed">session completed</label> 
+                  </div> 
+                
+                  <div> 
+                      <input type="radio" id="excused" 
+                             name="brand" value="excused"> 
+                      <label for="excused">excused absence</label> 
+                  </div> 
+                
+                  <div> 
+                      <input type="radio" id="unexcused" 
+                             name="brand" value="unexcused" 
+                             checked> 
+                      <label for="unexcused">unexcused absence</label> 
+                  </div> 
+                
+              </body>
+            </div>
+            <div class="spacer">
+                <a href="#Top">Back to Top</a>
+            </div>
+            <!-- End Buttons -->
+
+            <!-- Form Elements -->
+            <div>
+                <div class="page-header">
+                    <h1>
+                        <a name="formElements"></a>Form Elements</h1>
+                </div>
+                <p>For the varous forms that the application will contain, it will contain input fields and labels with the below styling:</p>
+                <p>These will be used when users want to input information for children and/or sessions.</p>
+                <form>
+                    <label for="name" class="inputLabel">Child's Name</label>
+                    <input type="input" id="name" class="inputField" value="">
+                </form>
+
+                <form>
+                    <label for="id" class="inputLabel">ID number</label>
+                    <input type="input" id="id" class="inputField" value="">
+                </form>
+
+                <form>
+                    <label for="date" class="inputLabel">Date of Session</label>
+                    <input type="date" id="date" class="inputField" value="">
+                </form>
+
+            </div>
+            <div class="spacer">
+                <a href="#Top">Back to Top</a>
+            </div>
+            <!-- End Form Elements -->
+
+            <!-- User Messages -->
+            <div>
+                <div class="page-header">
+                    <h1>
+                        <a name="messages"></a>Messages</h1>
+                </div>
+                <p>For various completed tasks, application notifications will be presented to the user based. The following contextual messages will be used.</p>
+                <p>An error message will be displayed in red as it is the most commonly used color for error messages. The user will quickly see that an error has occured such as entering an invalid date. The success message will use a blue color as found within the color scheme pallet to continue the color uniformity within the website. Users will be able to see if the information they have inputted has been submitted successfully.</p>
+                <p class="error">Error! The date entered was invalid.</p>
+                <p class="success">Child has been successfully added to your caseload!</p>
+                <p class="success">Session has been successfully added to your schedule!</p>
+            </div>
+            <div class="spacer">
+                <a href="#Top">Back to Top</a>
+            </div>
+            <!-- End User Messages -->
+        </div>
+    </div>
+    <div id="footer">
+        <div class="container">
+            <p class="text-muted">Copyright My Style Guide</p>
+        </div>
+    </div>
+</body>
+
+</html>
